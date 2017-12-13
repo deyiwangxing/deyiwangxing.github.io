@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { init } from 'ityped';
-import style from './intro.css';
+import './intro.css';
 
 
 
@@ -22,8 +22,8 @@ export default class Intro extends Component {
 	render() {
 		
 		return (
-			<div className={style.intro}>
-				<span id="element1" className={style.aniText}></span>
+			<div className="intro">
+				<span id="element1" className="aniText"></span>
 			</div>
 		)
 	}
