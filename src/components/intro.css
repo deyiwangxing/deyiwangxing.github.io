@@ -1,17 +1,24 @@
 .intro {
-    margin-top: 2.8rem;
-    width: 100%;
-    height: 25rem;
+    z-index: 10;
+    margin: -25vh 10vw 30px 10vw;
+    width: 80vw;
+    height: 50vh;
     display: flex;
     align-items: center;
     background: #fafafa;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: start;
+    /* transition: all .2s ease-in-out;
+    cursor: pointer; */
 }
+/* .intro:hover {
+    transform: scale(1.05);
+} */
 .textCover {
-    margin: 0 5rem;
+    margin: 0 50px;
 }
 .ityped-cursor {
-	font-size: 1.2rem;
+	font-size: 12px;
     opacity: 1;
     -webkit-animation: blink 0.5s infinite;
     -moz-animation: blink 0.5s infinite;
@@ -19,7 +26,7 @@
     animation-direction: alternate;
 }
 .aniText{
-	font-size: 1.3rem;
+	font-size: 13px;
     width: 1000px;
 }
 @keyframes blink {

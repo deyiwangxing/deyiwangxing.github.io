@@ -8,3 +8,27 @@
 .podcastCards {
 	flex: 1;
 }
+#header {
+	background-image: url(https://ws1.sinaimg.cn/large/8700af19ly1fm9ru6fqvjj22p81stdta);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50%;
+	z-index: 2;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+#header .mask {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.4);
+	z-index: -1;
+}
+.bio {
+	color: #ffffff;
+	font-size: 40px;
+	white-space: pre-line;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactAplayer from 'react-aplayer';
-
+import NavBar from '../components/nav-bar';
+import Footer from '../components/footer';
 export default class Podcast extends Component {
 	constructor(props) {
     super(props);
@@ -27,8 +28,10 @@ export default class Podcast extends Component {
     };
 		return (
 			<div>
+        <NavBar />
 				<ReactAplayer {...props} onPlay={this.playHandler} onPause={this.pauseHandler}/>
-			</div>
+        <Footer />
+      </div>
 		)
 	}
 }
